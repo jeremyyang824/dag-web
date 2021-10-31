@@ -1,0 +1,36 @@
+html {
+  height: 100%;
+}
+body {
+  margin: 0;
+  height: 100%;
+}
+svg {
+  width: 100%;
+  height: 100%;
+}
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 3px;
+}
+.node text {
+  font: 12px sans-serif;
+}
+.link {
+  fill: none;
+  stroke: #888;
+  stroke-width: 1px;
+}
+.arrow {
+  fill: #888;
+  stroke: #888;
+  stroke-width: 0.25px;
+}
+.d3-tip {
+  font: 12px sans-serif;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
